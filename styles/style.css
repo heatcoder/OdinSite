@@ -2,7 +2,7 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 header{
@@ -23,14 +23,20 @@ header{
 
 }
 
-.headerLogo{
-    font-size: 24px;
+.headerLogo img{
+    height:100px;
+    border-radius: 10px;
 }
 
 .topBar{
     display:flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.topBar h2{
+    font-family: 'Poppins', sans-serif;
+    margin-right: 70px;
 }
 
 .nav{
@@ -57,10 +63,15 @@ header{
     width:530px;
 } */
 
-.headerImage img{
+.headerImage_img{
     width:500px;
     height:240px;
+    overflow: hidden;
 
+}
+
+.headerImage_img img{
+    width:100%;
 }
 
 .card{
@@ -99,6 +110,10 @@ header{
     gap: 50px;
     
 }
+
+.sect h2{
+    margin-top:50px;
+}
 .emptyBoxContainer{
     display: flex;
     gap: 50px;
@@ -115,12 +130,23 @@ header{
     height:200px;
     border: 2px solid blue;
     border-radius: 10px;
+
 }
 
 .emptyBox p{
     text-align: center;
     max-width: 200px;
     width: 100%;
+   
+}
+
+.outlineBox{
+    overflow: hidden;
+}
+
+.outlineBox img{
+    width:100%;
+    transform: translateX(-0px)
 }
 
 .quote{
@@ -135,8 +161,8 @@ header{
 
 .quote p{
 
-    max-width: 775px;
-    font-size: 36px;
+    max-width: 1025px;
+    font-size: 26px;
     color: #1F2937;
     font-style: italic;
     line-height: 50px;
